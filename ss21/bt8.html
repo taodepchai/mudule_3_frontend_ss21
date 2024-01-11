@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let weight = +prompt("nhap can nang");
+      let height = +prompt("nhap chieu cao");
+      let bmi = weight / height ** 2;
+      if (bmi >= 40) {
+        document.write("beo phi do 3");
+      } else if (bmi >= 35) {
+        document.write("beo phi do 2");
+      } else if (bmi >= 30) {
+        document.write("beo phi do 1");
+      } else if (bmi >= 25) {
+        document.write("tien beo phi");
+      } else if (bmi >= 18.5) {
+        document.write("binh thuong");
+      } else document.write("can nang thap");
+    </script>
+  </body>
+</html>
